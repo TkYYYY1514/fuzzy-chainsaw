@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="icon" href="../images/China.png" type="image/jpg" />
+    <title>中国古代物理成就</title>
+	<link rel="stylesheet" type="text/css" href="../css/login.css">
+</head>
+<body>
+    <header id="myhd">
+        <h1>关于中国古代物理那些事</h1>
+    </header>
+
+    <main id="mymain">
+    <div id="mydiv">
+
+        <p>点击图片即可立即了解：</p><br>
+        <p>中国古代物理成就——弘扬中华优秀自然科学成就</p><br>
+        <p>中国古代物理领域杰出科学家——弘扬中华优秀科学家精神</p><br>
+        <p>中国古代杰出的物理著作——弘扬中华优秀物理科学专著</p><br>
+        <p>中国古代物理文化——弘扬中华优秀自然科学科学文明和文化传承</p><br>
+   </div>
+
+     <form action="../php/login.php" method="post" id="myfrom"  onsubmit="return validateForm()">
+
+        <h1>
+            用户登录
+        </h1>
+        <div id="USdiv">
+            <label for="">账号：</label>
+    <input type="text" id="username" name="username" value="账号1" placeholder="请输入账号"><br>
+    <label for=""id="USlabel"></label>
+        </div>
+        <div id="PSdiv">
+            <label for="">密码：</label>
+    <input type="password" id="password" name="password" value="密码1" placeholder="请输入密码"><br>
+    <label for="" id="PSlable"></label>
+    </div> 
+      
+    <div  id="BTdiv">
+    <input type="submit" value="登录" id="btnLogin" name="loginBtn"><br><br>
+    <input type="submit" value="注册" id="btnRegiste" name="registerBtn">
+    </div>
+    <br><br>
+    <a href="" id="visitor-login">不想注册？点我游客登录</a>
+    </form>
+
+     </main>
+   
+
+ <script src="../js/jquery-3.4.1.min.js"></script>
+ <script src="../js/login.js"></script>
+ 
+</body>
+</html>
